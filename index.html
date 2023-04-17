@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>環遊台灣大撒幣</title>    
+  </head>
+  <body style="padding-top:50px">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">環遊台灣大撒幣</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">美食</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="taichungfood.html">台中</a>
+                <a class="dropdown-item" href="tainanfood.html">台南</a>
+                <a class="dropdown-item" href="taipeifood.html">台北</a>
+				
+              </div>
+            </li>
+            </li>
+          </ul>
+		  
+        </div>		
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <main>	
+      <div class="container">
+	    <h1 class="text-center mt-5">永遠健康</h1>
+		
+	    <!-- 第一個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2><small></small></h2>
+            <p class="lead">我們樂於分享台灣各個地方的旅遊景點或是美食介紹，透過照片及簡述，盡可能地把最真實的評價呈現給閱覽者，希望透過文章內容，能找到自己喜歡或者想嘗試的景點、美食。</p>
+		    <p>民以食為天，吃飽飽最重要</p>
+          </div>
+          <div class="col-md-5">
+            <img src="PV56XR9.gif" class="op-geotag">
+          </div>
+        </div>	
+		<div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <img class="card-op-geotag" src="34db63b47f5a5cf1efa4582590467855.gif">
+            <div class="card-body">
+              <h5 class="card-title">土味情話分享</h5>
+              <p class="card-text"><p>我喜歡春天的花</p>
+
+                <p>夏天的樹</p>
+                
+                <p>秋天的黃昏</p>
+                
+                <p>冬天的雪</p>
+
+                <p>以及每天的你</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <img class="card-img-top" src="received_852444979209509.jpg">
+            <div class="card-body">
+              <h5 class="card-title">亞絲娜幫桐人撐了十秒</h5>
+              <p class="card-text"><p>但桐人一句感謝都沒說</p>
+  
+              <p>亞絲娜：好星沒好爆</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+		
+      
+	  </div>
+	</main>
+	<!-- 觸發互動視窗的按鈕 -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" 
+      data-bs-target="#myModal1">嶺東美景一</button>
+	<button type="button" class="btn btn-primary" data-bs-toggle="modal" 
+      data-bs-target="#myModal2">嶺東美景二</button>
+	  <script>
+       var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+       return new bootstrap.Tooltip(tooltipTriggerEl)
+       });
+      </script>
+      <!-- 互動視窗 -->
+      <div class="modal fade" id="myModal1" tabindex="-1">
+       <div class="modal-dialog">
+        <div class="modal-content">
+         <div class="modal-header">
+          <h3 class="modal-title">嶺東科大美景</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+         </div>
+         <div class="modal-body">
+          <img src="ltu/home.jpg" width="50%" class="img-fluid">
+          <p class="h3 text-end">-學生宿舍-</p>
+         </div>
+         <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" 
+            data-bs-placement="top" title="合歡山">美景一</button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- 互動視窗 -->
+      <div class="modal fade" id="myModal2" tabindex="-1">
+       <div class="modal-dialog">
+        <div class="modal-content">
+         <div class="modal-header">
+          <h3 class="modal-title">嶺東科大美景</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+         </div>
+         <div class="modal-body">
+          <img src="ltu/door.jpg" width="50%" class="img-fluid">
+          <p class="h3 text-end">-校門口-</p>
+         </div>
+         <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-container="body"  
+           data-bs-toggle="popover" data-bs-placement="top" data-bs-content="">美景二</button>
+		   <script> 
+			var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+           });
+
+           </script>
+         </div>
+        </div>
+       </div>
+      </div>
+    <!-- 頁尾 -->
+	<footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 2023耀彥多媒體&middot;<a href="#">隱私權政策</a>&middot;<a href="#">服務條款</a></p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+      </div>
+    </footer> 	
+	
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>台中好康報你知</title>    
+  </head>
+  <body style="padding-top:50px">
+     <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">環遊台灣大撒幣</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">美食</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="taichungfood.html">台中</a>
+                <a class="dropdown-item" href="tainanfood.html">台南</a>
+				        <a class="dropdown-item" href="taipeifood.html">台北</a>
+              </div>
+            </li>
+            </li>
+          </ul>
+		  <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="輸入景點">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>  
+        </div>		
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <main>	
+      <div class="container">
+	    <h1 class="text-center mt-5">台中美食</h1>
+		
+	    <!-- 第一個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>逢甲<small>位於臺中市西屯區的大型商圈</small></h2>
+            <p>
+		  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseContent">
+			逢甲－美食介紹</a>
+		  
+			</p>
+		<div class="collapse" id="collapseContent">
+		  <div class="card card-body">
+        逢甲文華夜市位於逢甲大學側門，從文華路一直延伸到福星路，
+        消費族群以二、三十歲的年輕人為主。因其有著位於學區和接近市區的地緣關係，
+        逐漸成為臺中市夜市集團的龍頭。逢甲文華夜市與其它臺中市夜市最大不同之處，
+        在於其不單是以飲食著稱，也包含了各式各樣的商店，營業時間亦較長。
+		  </div>
+		</div>
+          </div>
+          <div class="col-md-5">
+            <img src="taichung\feng.jpg" class="img-fluid">
+          </div>
+        </div>	
+		
+        <!-- 第二個景點 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-7 order-md-5">
+		    <h2>旅禾泡芙之家<small>美村旗艦店(台中市西區美村路一段343號)</small></h2>
+            <p class="lead">一間來自夢想中的甜點之家</p>
+		    <p>擁有二十五年以上專業烘焙經驗的旅禾泡芙之家，白國文、李國溢師傅們秉持著從小對烘培的執著與熱忱，
+          在2009年開立第一間位於五權七街巷口的小小麵包店。
+          在人來人往的大街上，可以看到大台中人們手中拿著滿溢幸福的旅禾麵包，每一份都是來自真材實料、用心烘培的美好祝福。
+        </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="taichung\taichungice.jpg" class="img-fluid">
+          </div>
+        </div>
+		
+	    <!-- 第三個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>三代爌肉飯<small>台中早午餐人氣爌肉飯</small></h2>
+            <p class="lead">台中南屯區美食《三代爌肉飯》，位於南屯區黎明路上過環中路後，接近楓樹社區一帶後，就可以看到楓平路與黎明路口有一家人氣三代爌肉飯</p>
+		    <p>現在選舉期間，連一代一代都看不到，滿滿的候選人廣告，只好等選舉完才會露出三代目爌肉飯，如果是慕名來用餐的話，停車切記要小心哦，店家還因為這樣貼上大大的告示牌。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="taichung/ricecake.jpg" class="img-fluid">
+          </div>
+        </div>	  
+	  </div>
+	</main>
+	
+    <!-- 頁尾 -->
+	<footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 2023耀彥多媒體&middot;<a href="#">隱私權政策</a>&middot;<a href="#">服務條款</a></p>
+		<p class="text-end"><a href="#">回到頂端</a></p>
+      </div>
+    </footer> 	
+  </body>
+</html>
